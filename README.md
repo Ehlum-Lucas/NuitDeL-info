@@ -45,6 +45,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Normalisation des nommages de commits :
 
 - Backlog :
+    ![image](https://github.com/Ehlum-Lucas/NuitDeL-info/assets/91659507/7fa1c86f-777d-4342-9e45-64a21ade5e1d)
+
 
 ### ASI :  Ne rien faire, c’est parfois mieux
 
