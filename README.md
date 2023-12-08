@@ -41,11 +41,25 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Yes We Dev
 
 - Merge request :
+    - Utilisation d'une branche de prod protégée, seul la branch de dev peut être mergée dedans avec l'accord d'un membre de l'équipe.
+    - Pareil pour la branche de dev, les PR ne peuvent être mergées que si elles sont validées par un autre membre de l'équipe.
+    - Pour les branches de features, elles ne peuvent être mergées que si elles sont validées par un autre membre de l'équipe.
+    - [Lien vers les PR](https://github.com/Ehlum-Lucas/NuitDeL-info/pulls)
 
 - Normalisation des nommages de commits :
+    - Utilisation de la norme Karma :
+        - feat : pour les nouvelles fonctionnalités
+        - fix : pour les corrections de bugs
+        - refactor : pour les modifications de code qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: renommage d'une variable)
+        - style : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+        - docs : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+        - chore : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+    - [Lien vers les commits](https://github.com/Ehlum-Lucas/NuitDeL-info/commit/main)
 
 - Backlog :
-    ![image](https://github.com/Ehlum-Lucas/NuitDeL-info/assets/91659507/7fa1c86f-777d-4342-9e45-64a21ade5e1d)
+    - Utilisation de la méthode agile Scrum avec la création d'un backlog via le GitHub Project.
+    - ![image](https://github.com/Ehlum-Lucas/NuitDeL-info/assets/91659507/7fa1c86f-777d-4342-9e45-64a21ade5e1d)
+    - [Lien vers le backlog](https://github.com/users/Ehlum-Lucas/projects/1/views/1)
 
 
 ### ASI :  Ne rien faire, c’est parfois mieux
