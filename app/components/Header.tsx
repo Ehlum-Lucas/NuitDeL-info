@@ -1,38 +1,43 @@
 'use client'
 import React, {useState} from 'react';
-import { NextUIProvider} from "@nextui-org/react";
+import {useTheme} from "next-themes";
 import Themes from "../themes";
 import {Switch} from "@nextui-org/react";
 import {MoonIcon} from "../icons/moonIcon";
 import {SunIcon} from "../icons/sunIcon";
 
-const Header: React.FC = () => {
-    const [theme, setTheme] = useState('dark');
+interface HeaderProps {
+    onThemeChange: (theme: string) => void;
+}
+
+const Header: React.FC<HeaderProps> = ({onThemeChange}) => {
+    const {theme, setTheme} = useTheme();
 
     const toggleTheme = () => {
-        setTheme(theme === 'dark' ? 'light' : 'dark');
-        console.log(theme);
-    }
+        if (theme === 'dark') {
+            setTheme('light');
+            onThemeChange('light');
+        } else {
+            setTheme('dark');
+            onThemeChange('dark');
+        }
+    };
 
     return (
-            <NextUIProvider>
-                <div className="flex justify-between items-center h-40 px-10 py-5">
-                    <div className="w-10 h-10 p-8 flex items-start justify-center bg-zinc-800">
-                        <Themes />
-                    </div>
-                    <img src="/logo.svg" alt="logo" className="w-30"/>
-                    <div>
-                        <Switch
-                            defaultSelected={theme === 'dark'}
-                            size="lg"
-                            color="success"
-                            startContent={<SunIcon />}
-                            endContent={<MoonIcon />}
-                            onChange={toggleTheme}
-                        ></Switch>
-                    </div>
-                </div>
-            </NextUIProvider>
+        <div className={`flex justify-between items-center h-30 p-10 ${theme === 'dark' ? 'bg-neutral-800' : 'bg-amber-50'}`}>
+            <div></div>
+            <img src="/logo.svg" alt="logo" className="w-30 pl-10"/>
+            <div>
+                <Switch
+                    defaultSelected={theme === 'light'}
+                    size="lg"
+                    color="success"
+                    startContent={<SunIcon />}
+                    endContent={<MoonIcon />}
+                    onChange={toggleTheme}
+                ></Switch>
+            </div>
+        </div>
     );
 };
 
