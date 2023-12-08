@@ -117,6 +117,48 @@
         "message": "Les énergies renouvelables sont en croissance et deviennent de plus en plus compétitives.",
         "response": true,
         "explanation": "Les énergies renouvelables, telles que l'énergie solaire et éolienne, connaissent une croissance rapide et deviennent de plus en plus compétitives par rapport aux sources d'énergie conventionnelles. Elles jouent un rôle clé dans la transition vers une énergie plus durable.",
-        "lien" : "hhttps://cdn.pixabay.com/photo/2018/02/15/11/25/waters-3155032_1280.jpg"
+        "lien" : "https://cdn.pixabay.com/photo/2018/02/15/11/25/waters-3155032_1280.jpg"
+    },
+    {
+        "message": "Le trou dans la couche d'ozone est responsable du réchauffement climatique.",
+        "response": false,
+        "explanation": "Le trou dans la couche d'ozone est distinct du changement climatique. Il a plutôt un impact sur la protection contre les rayons UV, tandis que le changement climatique est principalement dû à l'accumulation de gaz à effet de serre dans l'atmosphère.",
+        "lien" : "https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008_1280.jpg"
+    },
+    {
+        "message": "Le changement climatique n'affecte que les régions polaires.",
+        "response": false,
+        "explanation": "Le changement climatique a des répercussions mondiales, affectant les régions polaires ainsi que les zones côtières, les écosystèmes, l'agriculture et les modèles météorologiques dans le monde entier.",
+        "lien" : "https://cdn.pixabay.com/photo/2014/07/29/06/41/polar-bear-404314_1280.jpg"
+    },
+    {
+        "message": "Les océans absorbent une grande partie du dioxyde de carbone émis, ce qui modifie leur chimie et nuit à la vie marine.",
+        "response": true,
+        "explanation": "Lorsque nous émettons du dioxyde de carbone, une grande partie est absorbée par les océans, modifiant leur chimie et menaçant la vie marine en perturbant les écosystèmes marins.",
+        "lien" : "https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg"
+    },
+    {
+        "message": "Les changements climatiques peuvent également influencer les migrations d'animaux, bouleversant les écosystèmes et menaçant la biodiversité.",
+        "response": true,
+        "explanation": "Le changement climatique perturbe les schémas météorologiques et environnementaux, ce qui peut altérer les itinéraires de migration des animaux, affectant ainsi les écosystèmes où ils jouent un rôle essentiel.",
+        "lien" : "https://cdn.pixabay.com/photo/2017/05/27/17/50/seagull-2349027_1280.jpg"
+    },
+    {
+        "message": "Les populations les plus vulnérables, souvent les plus pauvres, sont les plus touchées par les effets du changement climatique, même si elles en sont rarement responsables.",
+        "response": true,
+        "explanation": "Les effets du changement climatique, tels que les sécheresses, les inondations ou les tempêtes, touchent de manière disproportionnée les populations les plus vulnérables économiquement et souvent les moins responsables des émissions de gaz à effet de serre.",
+        "lien" : "https://cdn.pixabay.com/photo/2020/08/22/00/24/desert-5507220_1280.jpg"
+    },
+    {
+        "message": "Les températures mondiales ne montent pas, car il y a eu des hivers froids récemment.",
+        "response": false,
+        "explanation": "Le changement climatique se réfère à des tendances à long terme de l'augmentation des températures. Les variations à court terme ou les hivers froids dans certaines régions ne contredisent pas la tendance globale au réchauffement observée sur de nombreuses décennies.",
+        "lien" : "https://cdn.pixabay.com/photo/2019/12/08/01/08/winter-4680354_1280.jpg"
+    },
+    {
+        "message": "La diminution du nombre de jours chauds réfute le changement climatique.",
+        "response": false,
+        "explanation": "Le changement climatique se manifeste par des tendances à long terme. Bien qu'il puisse y avoir des variations locales dans le nombre de jours chauds, la tendance mondiale montre une augmentation des températures moyennes.",
+        "lien" : "https://cdn.pixabay.com/photo/2015/03/05/17/34/calendar-660670_1280.jpg"
     }
 ]

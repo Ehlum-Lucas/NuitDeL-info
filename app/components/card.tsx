@@ -82,7 +82,7 @@ export const Card = ({ phrase, response, message, image, callback = undefined }:
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
 
                 <div className="absolute inset-0 flex flex-col justify-center items-center p-4">
-                    <h1 className="text-4xl mx-5 font-bold text-white mb-10 text-center">{phrase}</h1>
+                    <h1 className="text-4xl mx-5 font-bold text-white mb-10 text-center">{message}</h1>
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-end items-center p-4">
                     <div className="flex flex-row justify-center w-5/6 mb-5">
