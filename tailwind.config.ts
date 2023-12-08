@@ -15,9 +15,21 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        slide: 'slide 2s ease-in-out infinite',
+      },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
     },
   },
   darkMode: "class",
   plugins: [nextui()],
+  variants: {},
 }
+
 export default config

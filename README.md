@@ -41,11 +41,30 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Yes We Dev
 
 - Merge request :
+    - Utilisation d'une branche de prod protégée, seul la branch de dev peut être mergée dedans avec l'accord d'un membre de l'équipe.
+    - Pareil pour la branche de dev, les PR ne peuvent être mergées que si elles sont validées par un autre membre de l'équipe.
+    - Pour les branches de features, elles ne peuvent être mergées que si elles sont validées par un autre membre de l'équipe.
+    - [Lien vers les PR](https://github.com/Ehlum-Lucas/NuitDeL-info/pulls)
 
 - Normalisation des nommages de commits :
+    - Utilisation de la norme Karma :
+        - feat : pour les nouvelles fonctionnalités
+        - fix : pour les corrections de bugs
+        - refactor : pour les modifications de code qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: renommage d'une variable)
+        - style : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+        - docs : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+        - chore : pour les modifications qui n'apportent pas de nouvelles fonctionnalités ou de corrections de bugs (ex: changement de couleur d'un texte)
+    - [Lien vers les commits](https://github.com/Ehlum-Lucas/NuitDeL-info/commit/main)
 
 - Backlog :
-    ![image](https://github.com/Ehlum-Lucas/NuitDeL-info/assets/91659507/7fa1c86f-777d-4342-9e45-64a21ade5e1d)
+    - Utilisation de la méthode agile Scrum avec la création d'un backlog via le GitHub Project.
+    - ![image](https://github.com/Ehlum-Lucas/NuitDeL-info/assets/91659507/7fa1c86f-777d-4342-9e45-64a21ade5e1d)
+    - [Lien vers le backlog](https://github.com/users/Ehlum-Lucas/projects/1/views/1)
+
+
+Nous avons choisit ces 3 outils car ils sont très utilisés dans le monde du développement et nous permettent de nous familiariser avec eux. De plus, ils nous permettent de travailler en équipe de manière efficace et de nous organiser pour que chacun puisse travailler sur une partie du projet sans que cela ne pose de problème.
+Nous les avons utilisés dès le début du projet pour nous familiariser avec eux et nous avons pu voir que cela nous a permis de gagner du temps et de nous organiser plus facilement, que ce sois pour se répartir les tâches ou pour faire des retours sur le travail des autres.
+Cela  a apporté à l'équipe une meilleure organisation et une meilleure communication et pour ce qui est des contraintes, nous avons du nous habituer à utiliser ces outils et à les intégrer dans notre travail, ce qui n'a pas été très compliqué mais au moins nous avons pu découvrir ces outils et nous pourrons les utiliser dans nos futurs projets.
 
 
 ### ASI :  Ne rien faire, c’est parfois mieux
