@@ -32,7 +32,6 @@ export const Card = ({ phrase, response, message, image, callback = undefined }:
         } else {
             setIsQuestion(false);
         }
-
     }
 
     if (isQuestion) {
