@@ -62,6 +62,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     - [Lien vers le backlog](https://github.com/users/Ehlum-Lucas/projects/1/views/1)
 
 
+Nous avons choisit ces 3 outils car ils sont très utilisés dans le monde du développement et nous permettent de nous familiariser avec eux. De plus, ils nous permettent de travailler en équipe de manière efficace et de nous organiser pour que chacun puisse travailler sur une partie du projet sans que cela ne pose de problème.
+Nous les avons utilisés dès le début du projet pour nous familiariser avec eux et nous avons pu voir que cela nous a permis de gagner du temps et de nous organiser plus facilement, que ce sois pour se répartir les tâches ou pour faire des retours sur le travail des autres.
+Cela  a apporté à l'équipe une meilleure organisation et une meilleure communication et pour ce qui est des contraintes, nous avons du nous habituer à utiliser ces outils et à les intégrer dans notre travail, ce qui n'a pas été très compliqué mais au moins nous avons pu découvrir ces outils et nous pourrons les utiliser dans nos futurs projets.
+
+
 ### ASI :  Ne rien faire, c’est parfois mieux
 
 - Limiter le nombre d’images lourdes. Les images vectorielles peuvent vous aider !
